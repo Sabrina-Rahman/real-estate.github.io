@@ -395,10 +395,13 @@ h3 {
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #FDAE5C;
+  
+  /* border: 1px solid #FDAE5C; */
+  border: 1px solid #c5319b;
   letter-spacing: 3px;
   text-align: center;
-  color: #FDAE5C !important;
+  /* color: #FDAE5C !important; */
+  color: #c5319b !important;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -456,15 +459,15 @@ h3 {
 /* line 52, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdae5c+0,fd8e5e+100 */
-  background: #fdae5c;
+  background: #F865B0;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #fdae5c 0%, #fd8e5e 100%);
+  background: -moz-linear-gradient(left, #F865B0  0%, #d1119b  100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #fdae5c 0%, #fd8e5e 100%);
+  background: -webkit-linear-gradient(left, #F865B0  0%, #d1119b  100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #fdae5c 0%, #fd8e5e 100%);
+  background: linear-gradient(to right, #F865B0  0%, #d1119b  100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdae5c', endColorstr='#fd8e5e',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F865B0', endColorstr='#d1119b ',GradientType=1 );
   /* IE6-9 */
   color: #fff !important;
 }
@@ -505,7 +508,8 @@ h3 {
 
 /* line 87, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_btn.scss */
 .boxed-btn3-white:hover {
-  background: #28AE61;
+  /* background: #28AE61; */
+  background: #c5319b;
   color: #fff !important;
   border: 1px solid transparent;
 }
@@ -527,14 +531,14 @@ h3 {
 
 /* line 103, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_btn.scss */
 .boxed-btn3-line {
-  color: #FDAE5C !important;
+  color: #c5319b !important;
   display: inline-block;
   padding: 14px 31px;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
   border: 0;
-  border: 1px solid #FDAE5C;
+  border: 1px solid #c5319b;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
@@ -552,15 +556,15 @@ h3 {
   color: #fff !important;
   border: 1px solid transparent;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdae5c+0,fd8e5e+100 */
-  background: #fdae5c;
+  background: #d1119b ;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #fdae5c 0%, #fd8e5e 100%);
+  background: -moz-linear-gradient(left, #F865B0  0%, #d1119b  100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #fdae5c 0%, #fd8e5e 100%);
+  background: -webkit-linear-gradient(left, #F865B0  0%, #d1119b  100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #fdae5c 0%, #fd8e5e 100%);
+  background: linear-gradient(to right, #F865B0  0%, #d1119b  100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdae5c', endColorstr='#fd8e5e',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdae5c', endColorstr='#d1119b ',GradientType=1 );
   /* IE6-9 */
 }
 
@@ -1007,16 +1011,32 @@ h3 {
 /* line 113, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdae5c+0,fd8e5e+100 */
+  /* background: #fdae5c; */
+  /* Old browsers */
+  /* background: -moz-linear-gradient(top, #fdae5c 0%, #fd8e5e 100%); */
+  /* FF3.6-15 */
+  /* background: -webkit-linear-gradient(top, #fdae5c 0%, #fd8e5e 100%); */
+  /* Chrome10-25,Safari5.1-6 */
+  /* background: linear-gradient(to bottom, #fdae5c 0%, #fd8e5e 100%); */
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdae5c', endColorstr='#fd8e5e',GradientType=0 ); */
+  /* IE6-9 */
+
   background: #fdae5c;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #fdae5c 0%, #fd8e5e 100%);
+  background: -moz-linear-gradient(top, #F865B0 0%, #d1119b 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #fdae5c 0%, #fd8e5e 100%);
+  background: -webkit-linear-gradient(top, #F865B0 0%, #d1119b 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #fdae5c 0%, #fd8e5e 100%);
+  background: linear-gradient(to bottom, #F865B0 0%, #d1119b 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdae5c', endColorstr='#fd8e5e',GradientType=0 );
   /* IE6-9 */
+
+
+
+
+
   padding: 13px 26px;
   font-size: 14px;
   font-weight: 400;
@@ -1113,15 +1133,27 @@ h3 {
   position: absolute;
   content: "";
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdae5c+0,fd8e5e+100 */
-  background: #fdae5c;
+  /* background: #fdae5c; */
   /* Old browsers */
-  background: -moz-linear-gradient(top, #fdae5c 0%, #fd8e5e 100%);
+  /* background: -moz-linear-gradient(top, #fdae5c 0%, #fd8e5e 100%); */
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #fdae5c 0%, #fd8e5e 100%);
+  /* background: -webkit-linear-gradient(top, #fdae5c 0%, #fd8e5e 100%); */
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #fdae5c 0%, #fd8e5e 100%);
+  /* background: linear-gradient(to bottom, #fdae5c 0%, #fd8e5e 100%); */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdae5c', endColorstr='#fd8e5e',GradientType=0 );
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdae5c+0,fd8e5e+100 */
+  background: #F865B0;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #F865B0  0%, #d1119b  100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #F865B0  0%, #d1119b  100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #F865B0  0%, #d1119b  100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F865B0', endColorstr='#d1119b',GradientType=0 );
   /* IE6-9 */
   width: 100%;
   height: 3px;
@@ -1253,7 +1285,9 @@ h3 {
 .header-area .main-header-area.sticky ul li a::before {
   position: absolute;
   content: "";
-  background: #FDAE5C;
+  /* background: #FDAE5C; */
+  background: #F865B0;
+   
   width: 100%;
   height: 3px;
   bottom: -27px;
@@ -1269,7 +1303,8 @@ h3 {
 /* line 319, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_header.scss */
 .header-area .header-top_area {
   padding: 12px 0;
-  background: #001D38;
+  /* background: #001D38; */
+  background: #18101a;
 }
 
 @media (max-width: 767px) {
@@ -1333,7 +1368,7 @@ h3 {
 
 /* line 360, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_header.scss */
 .header-area .header-top_area .short_contact_list ul li a i {
-  color: #FDAE5C;
+  color: #c5319b;
   margin-right: 7px;
 }
 
@@ -1383,7 +1418,8 @@ h3 {
 
 /* line 10, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_slider.scss */
 .slider_area::before {
-  background: #001D38;
+  /* background: #001D38; */
+  background: #48304D;
   position: absolute;
   left: 0;
   top: 0;
@@ -1909,7 +1945,7 @@ h3 {
 
 /* line 9, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_counter.scss */
 .counter_area .single_counter h3 {
-  color: #FDAE5C;
+  color: #c5319b;
   font-weight: 500;
   font-size: 42px;
   margin-bottom: 0;
@@ -1917,7 +1953,8 @@ h3 {
 
 /* line 20, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_counter.scss */
 .counter_area .single_counter p {
-  color: #919191;
+  /* color: #919191; */
+  color: #48304D;
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 0;
@@ -1974,7 +2011,8 @@ h3 {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  background: #FDAE5C;
+  /* background: #FDAE5C; */
+  background: #c5319b;
   padding: 9px 21px;
   position: absolute;
   left: 0;
@@ -2047,7 +2085,7 @@ h3 {
 
 /* line 120, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_counter.scss */
 .home_details .modern_home_info .modern_home_info_inner .info_content .prise_view_details span {
-  color: #FF5748;
+  color: #c5319b;
   font-size: 24px;
   font-weight: 500;
 }
@@ -2438,7 +2476,8 @@ h3 {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #FDAE5C;
+  /* background: #FDAE5C; */
+  background: #E367BF;
   opacity: .9;
   z-index: -1;
   content: '';
@@ -3105,7 +3144,8 @@ h3 {
   position: absolute;
   top: 25px;
   left: 25px;
-  background: #FDAE5C;
+  /* background: #FDAE5C; */
+  background: #F865B0;
   padding: 8px 14px;
   color: #fff;
   border-radius: 30px;
@@ -3116,7 +3156,9 @@ h3 {
 
 /* line 42, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_popular_property.scss */
 .popular_property .single_property .property_thumb .property_tag.red {
-  background: #FF5748 !important;
+  /* background: #FF5748 !important; */
+  background: #48304D !important;
+  
 }
 
 /* line 47, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_popular_property.scss */
@@ -3154,7 +3196,8 @@ h3 {
 /* line 75, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_popular_property.scss */
 .popular_property .single_property .property_content .amount {
   display: inline-block;
-  background: #00D363;
+  /* background: #00D363; */
+  background: #c5319b;
   border-radius: 30px;
   padding: 7px 18px;
   color: #fff;
@@ -4510,7 +4553,8 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   border: none;
   font-size: 14px;
   color: #fff;
-  background: #FD955D;
+  /* background: #FD955D; */
+  background: #c5319b;
   padding: 10px;
   padding: 0 22px;
   cursor: pointer;
