@@ -1609,7 +1609,7 @@ h3 {
 .slider_area .serach_icon a {
   width: 45px;
   height: 45px;
-  background: #FD8E5E;
+  background:#c5319b;
   text-align: center;
   line-height: 45px;
   color: #fff;
@@ -1639,10 +1639,10 @@ h3 {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-align-items: end;
-  -moz-align-items: end;
-  -ms-align-items: end;
-  align-items: end;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
 }
 
 @media (max-width: 767px) {
@@ -2652,8 +2652,8 @@ h3 {
 /* line 66, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_property_details.scss */
 .property_details .contact_field form input {
   height: 50px;
-  background: #F5FBFF;
-  border: none;
+  /* background: #fbcaef69; */
+  border: 0.5px solid rgba(68, 68, 68, 0.4);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -2678,8 +2678,8 @@ h3 {
 /* line 84, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_property_details.scss */
 .property_details .contact_field form textarea {
   height: 100px;
-  background: #F5FBFF;
-  border: none;
+  background: none;
+  border: 0.5px solid rgba(68, 68, 68, 0.4);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -2703,7 +2703,7 @@ h3 {
 
 /* line 102, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_property_details.scss */
 .property_details .contact_field form .send_btn {
-  background: #FDAE5C;
+  background: #c5319b;
   color: #fff;
   text-align: center;
   padding: 6px;
@@ -2718,8 +2718,12 @@ h3 {
 
 /* line 119, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_property_details.scss */
 .property_details_banner {
-  background: #10273C;
+  background: #251527e5;
   padding: 250px 0 210px 0;
+  background-image:  linear-gradient(
+     #251527e8, 
+    #251527e5
+  ),url(../img/banner/home_details.png);
 }
 
 @media (max-width: 767px) {
@@ -2783,7 +2787,7 @@ h3 {
 .property_details_banner .prise_quantity h4 {
   font-size: 24px;
   font-weight: 500;
-  color: #FF5748;
+  color: #FBCAEF;
   margin-bottom: 20px;
 }
 
@@ -3363,7 +3367,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 117, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_prise_slider.scss */
 .single_field.range_slider .ui-state-default, .single_field.range_slider .ui-widget-content .ui-state-default, .single_field.range_slider .ui-widget-header .ui-state-default {
-  background: #FDAE5C !important;
+  background: #c5319b !important;
   border-radius: 5px;
   font-size: 21px;
   border: none !important;
@@ -3386,7 +3390,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 136, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_prise_slider.scss */
 .single_field.range_slider div.ui-slider-range.ui-widget-header {
-  background: #B18351;
+  background: #c5319b;
 }
 
 /* line 139, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_prise_slider.scss */
