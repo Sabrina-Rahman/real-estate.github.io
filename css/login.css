@@ -43,7 +43,7 @@ body {
     box-shadow: 3px 3px 10px #fbcaef52;
     transition: all 0.6s cubic-bezier(1, -0.375, 0.285, 0.995);
     z-index: 9999;
-    height: 105vh;
+    height: 85vh;
   }
   .brand.active {
     width: 100%;
@@ -137,9 +137,8 @@ body {
   }
   .form .form-peice {
     background: #fff;
-    min-height: 600px;
+    min-height: 480px;
     margin-top: 30px;
-    margin-bottom: 30px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     color: #bbbbbb;
     padding: 40px 0 60px;
@@ -222,7 +221,6 @@ body {
   }
   .form form .CTA {
     margin-top: 30px;
-    margin-bottom: 30px;
   }
   .form form .CTA input {
     font-size: 12px;

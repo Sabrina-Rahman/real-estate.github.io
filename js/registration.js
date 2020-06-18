@@ -2,7 +2,11 @@
 $(document).ready(function () {
     "use strict";
   
-    var usernameError = true,
+    var 
+      firstNameError=true,
+      lastNameError=true,
+      agencyNameError=true,
+      companyAddressError=true,
       emailError = true,
       passwordError = true,
       passConfirm = true;
@@ -19,24 +23,24 @@ $(document).ready(function () {
   
     // Form validation
     $("input").blur(function () {
-      // User Name
-      if ($(this).hasClass("name")) {
+      // First Name
+      if ($(this).hasClass("firstname")) {
         if ($(this).val().length === 0) {
           $(this)
             .siblings("span.error")
-            .text("Please type your full name")
+            .text("Please type your first name")
             .fadeIn()
             .parent(".form-group")
             .addClass("hasError");
-          usernameError = true;
-        } else if ($(this).val().length > 1 && $(this).val().length <= 6) {
+          firstNameError = true;
+        } else if ($(this).val().length > 1 && $(this).val().length <= 3) {
           $(this)
             .siblings("span.error")
-            .text("Please type at least 6 characters")
+            .text("Please type at least 3 characters")
             .fadeIn()
             .parent(".form-group")
             .addClass("hasError");
-          usernameError = true;
+            firstNameError = true;
         } else {
           $(this)
             .siblings(".error")
@@ -44,7 +48,91 @@ $(document).ready(function () {
             .fadeOut()
             .parent(".form-group")
             .removeClass("hasError");
-          usernameError = false;
+            firstNameError = false;
+        }
+      }
+       // Last Name
+       if ($(this).hasClass("lastname")) {
+        if ($(this).val().length === 0) {
+          $(this)
+            .siblings("span.error")
+            .text("Please type your last name")
+            .fadeIn()
+            .parent(".form-group")
+            .addClass("hasError");
+          lastNameError = true;
+        } else if ($(this).val().length > 1 && $(this).val().length <=3) {
+          $(this)
+            .siblings("span.error")
+            .text("Please type at least 3 characters")
+            .fadeIn()
+            .parent(".form-group")
+            .addClass("hasError");
+            lastNameError = true;
+        } else {
+          $(this)
+            .siblings(".error")
+            .text("")
+            .fadeOut()
+            .parent(".form-group")
+            .removeClass("hasError");
+            lastNameError = false;
+        }
+      }
+       // Agency Name
+       if ($(this).hasClass("agencyname")) {
+        if ($(this).val().length === 0) {
+          $(this)
+            .siblings("span.error")
+            .text("Please type your agency name")
+            .fadeIn()
+            .parent(".form-group")
+            .addClass("hasError");
+          agencyNameError = true;
+        } else if ($(this).val().length > 1 && $(this).val().length <=3) {
+          $(this)
+            .siblings("span.error")
+            .text("Please type at least 3 characters")
+            .fadeIn()
+            .parent(".form-group")
+            .addClass("hasError");
+            agencyNameError = true;
+        } else {
+          $(this)
+            .siblings(".error")
+            .text("")
+            .fadeOut()
+            .parent(".form-group")
+            .removeClass("hasError");
+            agencyNameError = false;
+        }
+      }
+       // Company Address
+       if ($(this).hasClass("companyaddress")) {
+        if ($(this).val().length === 0) {
+          $(this)
+            .siblings("span.error")
+            .text("Please type your company address")
+            .fadeIn()
+            .parent(".form-group")
+            .addClass("hasError");
+          companyAddressError = true;
+        } else if ($(this).val().length > 1 && $(this).val().length <=3) {
+          $(this)
+            .siblings("span.error")
+            .text("Please type at least 3 characters")
+            .fadeIn()
+            .parent(".form-group")
+            .addClass("hasError");
+            companyAddressError = true;
+        } else {
+          $(this)
+            .siblings(".error")
+            .text("")
+            .fadeOut()
+            .parent(".form-group")
+            .removeClass("hasError");
+            companyAddressError = false;
         }
       }
       // Email
@@ -142,12 +230,16 @@ $(document).ready(function () {
       event.preventDefault();
   
       if (
-        usernameError == true ||
+       
+        lastNameError==true||
+        firstNameError==true||
+        companyAddressError==true||
+        agencyNameError==true||
         emailError == true ||
         passwordError == true ||
         passConfirm == true
       ) {
-        $(".name, .email, .pass, .passConfirm").blur();
+        $(".firstname,.lastname,.agencyname,.companyaddress,.name, .email, .pass, .passConfirm").blur();
       } else {
         $(".signup, .login").addClass("switched");
   
