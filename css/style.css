@@ -234,7 +234,7 @@ h3 {
 .overlay2::before {
   position: absolute;
   content: "";
-  background-color: #001D38;
+  background-color: #48304D;
   top: 0;
   left: 0;
   width: 100%;
@@ -1476,7 +1476,7 @@ h3 {
 
 /* line 42, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_slider.scss */
 .slider_area .single_slider.single_slider2 .property_wrap .property_form {
-  background: #001D38;
+  background: #18101a;
 }
 
 @media (max-width: 767px) {
@@ -1577,7 +1577,7 @@ h3 {
 /* line 102, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_slider.scss */
 .slider_area .single_slider .property_form {
   padding: 30px;
-  background: rgba(0, 28, 56, 0.6);
+  background: #18101a;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
