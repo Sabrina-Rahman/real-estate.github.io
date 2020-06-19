@@ -120,9 +120,9 @@ border-radius: 0.7em;
 	color:#fff;
 }
 .price-value,.price-value.two,.price-value.three {
-	background: #512884;
+	background: #47254e;
 	padding: 2.8em 1.8em 2em;
-	border-bottom:2px solid#ffd500;
+	border-bottom:2px solid#E367BF;
 	border-top-left-radius:0.7em;
 	-webkit-border-top-left-radius:0.7em;
 	-o-border-top-left-radius: 0.7em;
@@ -134,12 +134,12 @@ border-radius: 0.7em;
 	position: relative;
 }
 .price-value.two{
-	background:#2b2b33;
-	border-bottom:2px solid#fd6e70;
+	background:#cf40a7;
+	border-bottom:2px solid#fad9f2;
 }
 .price-value.three {
-	background: #04dbdd;
-	border-bottom:2px solid#028f87;
+	background: #95cfb9;
+	border-bottom:2px solid#12ad72;
 }
 .price-value ul,.pricing-grid1 ul,.pricing-grid2 ul,.pricing-grid3 ul{
 	padding: 0;
@@ -151,7 +151,7 @@ border-radius: 0.7em;
 	list-style: none;
 }
 .price-value  h5 span{
-color: #fbd707;
+color: #E367BF;
 font-size: 19px;
 }
 .price-value lable{
@@ -159,16 +159,16 @@ color: #817d94;
 font-size: 17px;
 }
 .price-value.two h5 span{
-	color:#fe6d72;
+	color:#fdadf9;
 }
 .price-value.two h5 lable{
-	color:#8c8c94;
+	color:#f7b7e4;
 }
 .price-value.three h5 span{
-	color: #018f90;
+	color: #128181;
 }
 .price-value.three h5 lable{
-	color:#9CF7F8;
+	color:#043a3b;
 }
 .price-value h5 {
 padding: 11px 0;
@@ -190,7 +190,7 @@ padding: 11px 0;
 .sale-box span.on_sale{
 font-size: 14px;
 color: #444;
-background: #ffd400;
+background: #E367BF;
 text-transform: uppercase;
 padding: 58px 35px 17px 40px;
 width: 281px;
@@ -214,8 +214,8 @@ box-shadow: 3px -4px 13px 3px rgba(0,0,0,0.75);
 	background:#05AEA7;
 }
 .pricing-grid1 ul li a,.pricing-grid2 ul li a,.pricing-grid3 ul li a{
-	color: #C7C4C4;
-	font-size: 15px;
+	color: #929292;
+	font-size: 13px;
 	text-align: center;
 	display: block;
 	padding: 16px 0;
@@ -226,7 +226,7 @@ box-shadow: 3px -4px 13px 3px rgba(0,0,0,0.75);
 	background:#f4f4f4;
 }
 .pricing-grid1:hover div.price-bg ul li a,.pricing-grid1:hover div.price-value h3 a{
- color:#512884;
+ color:#9e2b7e;
 }
 .pricing-grid2:hover div.price-bg ul li a,.pricing-grid2:hover div.price-value h3 a{
  color:#fa6e6f;
@@ -246,7 +246,7 @@ box-shadow: 3px -4px 13px 3px rgba(0,0,0,0.75);
 .cart1,.cart2,.cart3{
 	padding: 2.7em 0em 2.7em;
 	display: block;
-	border-bottom: 2px solid#ffd500;
+	border-bottom: 2px solid#E367BF;
 }
 .cart2{
 border-bottom: 2px solid#f96d70;
@@ -260,7 +260,7 @@ border-bottom: 2px solid#04dbdd;
 	font-weight: 500;
 	padding: 0.8em 2em;
 	text-decoration: none;
-	background: #f7d30b;
+	background: #ac2385;
 	text-transform:uppercase;
 	-webkit-appearance:none;
 	border-radius:1em;
@@ -276,7 +276,7 @@ border-bottom: 2px solid#04dbdd;
 	background: #04dbdd;
 }
 .cart1 a:hover,.cart2 a:hover,.cart3 a:hover{
-	color: #2b2b33;
+	color: #fabbe8;
 }
 /*----*/
 /*---start-pricing-tabels-----*/
@@ -802,7 +802,7 @@ button::-moz-focus-inner {
 /*--------------*/
 @media(max-width:1366px){
 	.pricing-grid1 ul li a, .pricing-grid2 ul li a, .pricing-grid3 ul li a {
-	font-size: 17px;
+	font-size: 13px;
 	}
 }
 @media(max-width:1024px){

@@ -215,7 +215,7 @@ h3 {
 .overlay::before {
   position: absolute;
   content: "";
-  background-color: #001D38;
+  background-color: #48304D;
   top: 0;
   left: 0;
   width: 100%;
