@@ -30,7 +30,13 @@ body {
   section#formHolder {
     padding: 50px 0;
   }
-  
+  #backHome{
+    background-color: #d63cab; 
+    border-radius: 20px;
+    padding: 10px 15px;border: none;
+     font-size: 13px;
+     z-index: 999;
+  }
   .brand {
     padding: 20px;
      /* background: url(https://cdn.wallpaper.com/main/_la_residential_architecture-view-asteras-kings-from-south-west.gif); */
