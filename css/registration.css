@@ -128,11 +128,11 @@ body {
     color: #fff;
     border-radius: 30px;
   }
-  .brand .success-msg p, .brand .success-msg a {
+  /* .brand .success-msg p, .brand .success-msg a {
     transition: all 0.9s;
     transform: translateY(20px);
     opacity: 0;
-  }
+  } */
   .brand .success-msg p.active, .brand .success-msg a.active {
     transform: translateY(0);
     opacity: 1;
